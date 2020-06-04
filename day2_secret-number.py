@@ -10,7 +10,7 @@ rand_num = random.randint(1,100)
 
 while True:
 
-    user_num = input("Enter a number between 1-100: ")
+    user_num = int(input("Enter a number between 1-100: "))
 
     if user_num == rand_num:
         print("you got it write :) ,, Exiting the program")
