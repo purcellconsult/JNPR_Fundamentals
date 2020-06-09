@@ -51,3 +51,27 @@ tripe = {k:v**3 for (k,v) in dict1.items()}
 
 print(tripe) ## result {'a': 125, 'b': 8, 'c': 216}
 
+## adding some exceptions example:
+
+def import_test():
+    try:
+        import math
+        import sys
+        import operator
+        import pyexpat
+        import juniper
+    except ImportError:
+        print("Could not import Juniper")
+
+
+import_test()
+
+try:
+    a = input("Enter an integer: ")
+    if a in range(1,10):
+        raise Exception("this is right")
+except TypeError:
+    print("This is not an integer")
+
+
+    
