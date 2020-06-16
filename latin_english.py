@@ -1,5 +1,5 @@
-## some names of mexican food
-# will start by defining a dictionary and move form there
+## Translate latin unmber ...
+# ph2 is  to add these through a dictionary file ... 
 
 def latin_numbers():
     latin_to_english = {'Uno':'one',
