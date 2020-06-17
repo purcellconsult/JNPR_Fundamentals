@@ -24,10 +24,24 @@ while i < 101:
     if i % 2 == 0: print(i)
     i +=1
 
-i = 0
-while i < 3:
-    print('***')
-    i+=1
+# i = 0
+# while i < 3:
+#     print('***')
+#     i+=1
+
+# how can we write a loop to get the following?
+
+"""
+*
+* *
+* * *
+"""
+
+for x in range(3):
+    for y in range(3):
+        # do something here
+
+
 
 i=0
 y = '*'
